@@ -1,43 +1,15 @@
 var options = {
-series: [100],
-chart: {
-height: 180,
-width: 140,
-type: 'radialBar',
-},
-plotOptions: {
-radialBar: {
-    hollow: {
-    size: '60%',
-    }
-},
-},
-colors: ['#5254ce'],
-labels: ['HTML','Hola'],
+    series: [85],
+    chart: {
+        height: 120,
+        width: 80,
+        type: 'radialBar',
+    },
+    colors: ['#002561'],
+    labels: ["82%"]
 };
 
 var chart = new ApexCharts(document.querySelector("#chart1"), options);
-chart.render();
-
-var options = {
-series: [65],
-chart: {
-height: 180,
-width: 140,
-type: 'radialBar',
-},
-plotOptions: {
-radialBar: {
-    hollow: {
-    size: '60%',
-    }
-},
-},
-colors: ['#002561'],
-labels: ['CSS','Hola'],
-};
-
-var chart = new ApexCharts(document.querySelector("#chart2"), options);
 chart.render();
 
 var options = {

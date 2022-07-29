@@ -5,7 +5,7 @@ window.addEventListener('scroll',function()
     // let menuoptions = document.getElementsByClassName('menu-nav-item');
     
     let posicionobj1 = limite.getBoundingClientRect().top;
-    console.log(posicionobj1);
+    // console.log(posicionobj1);
 
     let inicio = window.innerHeight/2;
     if(posicionobj1 < inicio){
