@@ -462,6 +462,10 @@ a{
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
 }
+.div-portafolio .designs section{
+    animation: fadeInUp;
+    animation-duration: 1s;
+}
 .div-portafolio .designs section main img{
     width: 100%;
 }
